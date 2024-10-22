@@ -1,0 +1,39 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(6, 6, 6); 
+    float: none;
+    text-align: left;
+    gap: 3rem;
+
+  }
+  
+  /* .logo {
+    /* Add styles for your logo here */
+  
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white; /* Change as needed */
+  }
+  .nav-links a:hover{
+    color: red;
+  }
+  
