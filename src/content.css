@@ -1,0 +1,34 @@
+/* BodySection.css */
+.body-container {
+    display: flex; /* This places the boxes side by side */
+    justify-content: space-between; /* Ensures space between the two boxes */
+    align-items: center; /* Centers content vertically */
+    padding: 2rem;
+    /* background-color: #f0f0f0; Add background color if needed */
+    height: 100vh; /* Full viewport height */
+    flex-wrap: wrap;
+  }
+  
+  .left-box {
+    flex: 1; /* Takes up equal space as the right box */
+    padding: 0.5rem;
+    /* font-size: 1.5rem; */
+    color: white;
+  }
+  
+  .right-box {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .right-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Rounded corners */
+    opacity: 0.8; /* Blends the image with the background */
+  }
+.left-box p{
+    font-size: 40px;
+    line-height: 50px;
+    word-spacing: 10px;
+}

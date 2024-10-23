@@ -1,9 +1,16 @@
-#root {
-  max-width: 1280px;
+
+/* #root {
+  max-width: 100%;
+  background-color: black;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c90f0f;
+  min-height: 100vh;
+} */
 
 /* .logo {
   height: 6em;
@@ -40,3 +47,30 @@
 .read-the-docs {
   color: #888;
 } */
+
+/* .app {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+.app {
+  width: 100%;
+  max-width: 1280px; /* Maximum width for larger screens */
+  padding: 20px;
+  background-color: #ffffff; /* White background for the content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  background-color: #0000ff; 
+}
+/* .container {
+  background-color: blue;
+  width: 80%;
+  max-width: 1200px;
+  padding: 2rem;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 8px; */
+

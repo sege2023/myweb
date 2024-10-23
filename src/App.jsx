@@ -32,11 +32,9 @@ function App() {
     //   </p>
     // </>
 
-    <div>
-      <Navbar/>
-      <main>
+    <div className="app">
+        <Navbar/>
         <Content/>
-      </main>
     </div>
   )
 }
