@@ -30,11 +30,14 @@
     gap: 20px; 
   }
   
-  .nav-links a {
+  .link{
     text-decoration: none;
     color: white; /* Change as needed */
   }
-  .nav-links a:hover{
+  .link:hover{
     color: red;
   }
+  /* .link{
+    color: white;
+  } */
   
